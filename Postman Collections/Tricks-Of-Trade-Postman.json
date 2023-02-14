@@ -1,0 +1,181 @@
+{
+	"info": {
+		"_postman_id": "8994ce8a-488b-4490-9024-1de9310fbbec",
+		"name": "AlgoBulls",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=5min&apikey=K80RJRSEEC6PFKM9",
+			"_postman_id": "8bb1b52e-9732-4f98-a8bb-5505585b7be9",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=5min&apikey=K80RJRSEEC6PFKM9",
+					"protocol": "https",
+					"host": [
+						"www",
+						"alphavantage",
+						"co"
+					],
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "function",
+							"value": "TIME_SERIES_INTRADAY"
+						},
+						{
+							"key": "symbol",
+							"value": "AAPL"
+						},
+						{
+							"key": "symbol",
+							"value": "GOOGL",
+							"disabled": true
+						},
+						{
+							"key": "symbol",
+							"value": "NVDA",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "interval",
+							"value": "5min"
+						},
+						{
+							"key": "apikey",
+							"value": "K80RJRSEEC6PFKM9"
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=GOOGL&interval=5min&apikey=K80RJRSEEC6PFKM9",
+			"_postman_id": "968c4f73-8e74-4f2c-a44d-ec671c563696",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=GOOGL&interval=5min&apikey=K80RJRSEEC6PFKM9",
+					"protocol": "https",
+					"host": [
+						"www",
+						"alphavantage",
+						"co"
+					],
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "function",
+							"value": "TIME_SERIES_INTRADAY"
+						},
+						{
+							"key": "symbol",
+							"value": "AAPL",
+							"disabled": true
+						},
+						{
+							"key": "symbol",
+							"value": "GOOGL"
+						},
+						{
+							"key": "symbol",
+							"value": "NVDA",
+							"disabled": true
+						},
+						{
+							"key": "interval",
+							"value": "5min"
+						},
+						{
+							"key": "apikey",
+							"value": "K80RJRSEEC6PFKM9"
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=5min&apikey=K80RJRSEEC6PFKM9",
+			"_postman_id": "75682580-4229-4991-8e96-fd37df2ab80e",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=NVDA&interval=5min&apikey=K80RJRSEEC6PFKM9",
+					"protocol": "https",
+					"host": [
+						"www",
+						"alphavantage",
+						"co"
+					],
+					"path": [
+						"query"
+					],
+					"query": [
+						{
+							"key": "function",
+							"value": "TIME_SERIES_INTRADAY"
+						},
+						{
+							"key": "symbol",
+							"value": "AAPL",
+							"disabled": true
+						},
+						{
+							"key": "symbol",
+							"value": "GOOGL",
+							"disabled": true
+						},
+						{
+							"key": "symbol",
+							"value": "NVDA"
+						},
+						{
+							"key": "interval",
+							"value": "5min"
+						},
+						{
+							"key": "apikey",
+							"value": "K80RJRSEEC6PFKM9"
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
